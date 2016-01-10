@@ -1,0 +1,67 @@
+<!-- THIS PAGE WAS CREATED BY GAVIN FAHEY -->
+<!DOCTYPE html>
+<html>
+<head>
+      <!-- LINKING FONTS AND CSS AND JAVASCRIPT TO MY HTML -->
+	<link rel="stylesheet" type="text/css" href="debate.css">
+	<link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="debate.js"></script>
+	<title>theDEBATE</title>
+</head>
+<body>
+      <!-- MAIN DIV WHICH INCLUDES ALL ELEMENTS ON THE PAGE -->
+      <div class="main">
+            <!-- THIS TEXT DIV CONTAINS THEDEBATE TEXT -->
+            <div class="text">
+                  <h1 class="the">the</h1><h1 class="debate">DEBATE</h1>
+            </div>
+            <!-- THIS BUTTONCONTAINER DIV CONTAINS THE TWO BUTTONS ON THE PAGE -->
+            <div class="buttonContainer">
+                  <!-- THIS BUTTON WILL OPEN A SMALL DIV TO ALLOW USERS TO INPUT INFO AND LOGIN -->
+                  <button  onclick="login()" class="login">Login</button>
+                        <!-- THIS IS THE FIRST_LOGIN DIV THAT IS HIDDEN UNTIL YOU HIT THE BUTTON ABOVE -->
+                        <div class="first_login">
+                        <!-- THIS IS THE H1 TEXT IN THE FIRST_LOGIN DIV -->
+                        <h1>LOGIN TO GET STARTED</h1>
+                        <!-- THIS IS THE FORM FOR SIGNING IN -->
+                        <form>
+                              <input type="text" name="username" size="25" placeholder="Username" class="top"/><br /><br/>
+                              <input type="password" name="password" size="25" placeholder="Password" /><br /><br/>
+                        </form>
+                              <!-- THIS BUTTON LETS THE USER LOGIN (NO FUNCTION YET) -->
+                              <button class="login">Proceed</button>
+                              <!-- THIS BUTTON CLOSES THE FIRST_LOGIN DIV WHEN CLICKED -->
+                              <button onclick="login()" class="login">Return</button>
+                        </div>
+                  <!-- THIS BUTTON WILL OPEN A SMALL DIV TO ALLOW USERS TO INPUT INFO AND SIGN UP -->
+                  <button onclick="signUp()" class="signup">Sign Up</button>
+                        <!-- THIS IS THE POPUP DIV THAT IS HIDDEN UNTIL YOU HIT THE BUTTON ABOVE -->
+                        <div class="popup">
+                        <!-- THIS IS THE TEXT AT THE TOP OF THE POPUP DIV -->
+                        <h1>FILL OUT THE INFORMATIOIN BELOW</h1>
+                              <!-- FORM THAT HOLDS ALL THE INPUT FIELDS FOR THE USER TO USE -->
+                              <form>
+                                    <input type="text" name="fname" size="25" placeholder="First Name" class="top"/><br /><br />
+                                    <input type="text" name="lname" size="25" placeholder="Last Name" /><br /><br />
+                                    <input type="text" name="username" size="25" placeholder="UserName" /><br /><br/>
+                                    <input type="text" name="email" size="25" placeholder="Email Address" /><br /><br/>
+                                    <input type="text" name="email2" size="25" placeholder="Confirm Email" /><br /><br/>
+                                    <input type="password" name="password" size="25" placeholder="Password" /><br /><br/>
+                                    <input type="password" name="password2" size="25" placeholder="Confirm Password " /><br /><br/>
+                              </form>
+                              <!-- THIS BUTTON LETS THE USER LOGIN (NO FUNCTION YET) -->
+                              <button class="login">Register</button>
+                              <!-- THIS BUTTON CLOSES THE POPUP DIV WHEN CLICKED -->
+                              <button onclick="signUp()" class="login">Return</button>
+                        </div>
+            </div>
+            <!-- THIS QUOTE DIV CONTAINS THE QUOTE AND PARAGRAPHS INSIDE IT -->
+            <div class="quote">
+                  <p><q>Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition.</q><p class="steve"><br>- Steve Jobs</p></p>
+            </div>
+            <!-- THIS COPY DIV CONTAINS THE COPYRIGHT LOGO FOR THE PAGE AT THE BOTTOM -->
+            <div class="copy">&copy; theDEBATE 2015</div>
+      </div>
+</body>
+</html>

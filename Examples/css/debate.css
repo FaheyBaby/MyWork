@@ -1,0 +1,230 @@
+/*** THIS WAS DONE AND CREATED BY GAVIN FAHEY ***/
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Patua One', cursive;	
+	outline: none;
+}
+
+/*** DIV STYLING FOR THEDEBATE MAIN DIV ON PAGE ***/
+.main {
+	background-color: #7A7A7A;
+}
+
+/*** DIV STYLING FOR THEDEBATE MAIN TEXT ON PAGE ***/
+.text {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+/*** CLASS STYLING FOR "THE" PART OF THEDEBATE ***/
+.the {
+	background: -webkit-linear-gradient(#FFFFFF, #bfbfbf);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 150px;
+	font-size: 80px;
+	display: inline-block;
+}
+
+/*** CLASS STYLING FOR "DEBATE" PART OF THEDEBATE ***/
+.debate {
+	margin-top: 150px;
+	background: -webkit-linear-gradient(#E6CD00, #FFAC00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 80px;
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+}
+
+/*** DIV STYLING FOR CONATINER OF THE TWO BUTTONS ***/
+.buttonContainer {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+/*** CLASS STYLING FOR THE LOGIN BUTTON ***/
+.login {
+	background-image: linear-gradient(#E6CD00, #FFAC00);
+	border-radius: 7px;
+	width: 150px;
+	height: 40px;
+	text-shadow: 0px 1px white;
+	color: black;
+    font-size: 19px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    border-color: white;
+}
+
+/*** CLASS STYLING FOR THE SIGNUP BUTTON ***/
+.signup {
+	background-image: linear-gradient(#E6CD00, #FFAC00);
+	border-radius: 7px;
+	width: 150px;
+	height: 40px;
+	text-shadow: 0px 1px white;
+	color: black;
+    font-size: 19px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    border-color: white;
+}
+
+/*** STYLING FOR THE HOVER OF BOTH BUTTONS ***/
+.login:hover {
+	background-image: linear-gradient(#FFAC00, #E6CD00);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.22);
+    text-shadow: 0 -1px black;
+    border-color: white;
+    color: white;
+}
+
+button:hover {
+	background-image: linear-gradient(#FFAC00, #E6CD00);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.22);
+    text-shadow: 0 -1px black;
+    border-color: white;
+    color: white;
+}
+
+/*** DIV STYLING FOR THE CONTAINER OF THE QUOTE AND PARAGRAPH ***/
+.quote {
+	color: white;
+	text-align: justify;
+	width: 475px;
+	height: 300px;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+/*** CLASS STYLING FOR "STEVE JOBS" TEXT ***/
+.steve {
+	background: -webkit-linear-gradient(#E6CD00, #FFAC00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 370px;
+}
+
+/*** DIV STYLING AND TEXT STYLING FOR THE CONTAINER OF COPYRIGHT TEXT ***/
+.copy {
+	margin-top: 220px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+/*** STYLING FOR THE POPUP DIV ***/
+.popup {
+	z-index: -1;
+	display: inline-block;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    background: url(../img/Untitled.png);
+    border-radius: 7px;
+    border: 2px solid #FFAC00;
+}
+
+/*** STYLING FOR THE INPUT TEXTS AND PASSWORDS INSIDE THE POPUP DIV ***/
+input[type="text"] {
+	border-radius: 3px;
+	background-color: #4d4d4d;
+	border: 2px solid white;
+	font-size: 15px;
+	padding: 5px;
+	width: 300px;
+	outline: none;
+}
+
+input[type="password"] {
+	border-radius: 3px;
+	background-color: #4d4d4d;
+	border: 2px solid white;
+	font-size: 15px;
+	padding: 5px;
+	width: 300px;
+	outline: none;
+}
+
+/*** STYLING FOR THE INPUT TEXTS AND PASSWORDS WHILE HOVERED INSIDE THE POPUP DIV ***/
+input[type="text"]:hover {
+	border: 2px solid #FFAC00;
+}
+
+input[type="password"]:hover {
+	border: 2px solid #FFAC00;
+}
+
+/*** STYLING FOR THE INPUT TEXTS AND PASSWORDS WHILE FOCUSED INSIDE THE POPUP DIV ***/
+input[type="text"]:focus {
+	border: 2px solid #FFAC00;
+	background-color: #7A7A7A;
+	color: #FFAC00;
+}
+
+input[type="password"]:focus {
+	border: 2px solid #FFAC00;
+	background-color: #7A7A7A;
+	color: #FFAC00;
+}
+
+/*** MOVES THE TEXT INPUTS INSIDE THE POPUP DIV DOWN 20PX ***/
+.top {
+	margin-top: 20px;
+}
+
+/*** STYLING FOR THE H1 TEXT INSIDE THE POPUP DIV ***/
+.popup h1 {
+	background: -webkit-linear-gradient(#FFFFFF, #bfbfbf);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+}
+
+/*** STYLING FOR THE FIRST_LOGIN DIV ***/
+.first_login {
+	z-index: -1;
+	display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 270px;
+    margin: auto;
+    background: url(../img/Untitled.png);
+    border-radius: 7px;
+    border: 2px solid #FFAC00;
+}
+
+/*** STYLING FOR THE H1 TEXT INSIDE THE FIRST_LOGIN DIV ***/
+.first_login h1 {
+	background: -webkit-linear-gradient(#FFFFFF, #bfbfbf);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.buttonContain {
+	width: 150px;
+	margin-left: 260px;
+	margin-top: -39px;
+}
+
+#submit {
+	margin-right: 175px;
+}
